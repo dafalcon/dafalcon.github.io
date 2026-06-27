@@ -1,12 +1,49 @@
 site_name: dafalcon
+site_description: Technical notes, documentation, and projects
 site_url: https://dafalcon.github.io
+
+repo_url: https://github.com/dafalcon/dafalcon.github.io
+repo_name: dafalcon.github.io
+edit_uri: edit/main/docs/
 
 theme:
   name: material
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.sections
+    - navigation.expand
+    - content.action.edit
+    - content.code.copy
+    - search.suggest
+    - search.highlight
 
 plugins:
   - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+  - minify:
+      minify_html: true
 
 nav:
   - Home: index.md
   - HomeLab: homelab/index.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
