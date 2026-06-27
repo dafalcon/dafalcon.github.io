@@ -1,4 +1,4 @@
-site_name: dafalcon
+site_name: dafalcon.github.io
 site_description: Technical notes, documentation, and projects
 site_url: https://dafalcon.github.io
 
@@ -41,7 +41,9 @@ plugins:
 
 nav:
   - Home: index.md
-  - HomeLab: homelab/index.md
+  - HomeLab:
+      - Overview: homelab/index.md
+      - dafalcon.github.io: homelab/dafalcon.github.io.md
 
 markdown_extensions:
   - admonition
