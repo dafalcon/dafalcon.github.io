@@ -4,14 +4,14 @@ Notes from setting up this site.
 
 ## Stack
 
-- MkDocs
-- Material for MkDocs
-- GitHub Pages
-- GitHub Actions
+- [MkDocs](https://www.mkdocs.org)
+- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+- [GitHub Pages](https://docs.github.com/en/pages)
+- [GitHub Actions](https://github.com/features/actions)
 
 ## Running it locally
 
-Install venv and dependencies:
+Install [venv](https://docs.python.org/3/library/venv.html) and dependencies:
 
 ```bash
 python3 -m venv .venv
@@ -25,10 +25,10 @@ Run a local server:
 mkdocs serve
 ```
 
-View it in the browser at http://127.0.0.1:8000
+View it in the browser at [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 ## Deployment
 
-Push to `main` to trigger a GitHub Action that builds the site and deploys it to the `gh-pages` branch.
+Push `main` to trigger a GitHub Action that builds the site and deploys it to the `gh-pages` branch.
 See .github/workflows/deploy.yml for details.
 
