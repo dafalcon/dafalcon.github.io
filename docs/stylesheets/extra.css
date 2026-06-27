@@ -1,0 +1,75 @@
+:root {
+  --df-ink: #12343b;
+  --df-ink-soft: #48656d;
+  --df-accent: #d97706;
+  --df-accent-soft: rgba(217, 119, 6, 0.14);
+  --df-surface: #f4efe6;
+  --df-surface-strong: #ebe2d3;
+  --df-border: rgba(18, 52, 59, 0.12);
+  --df-shadow: 0 18px 44px rgba(18, 52, 59, 0.12);
+  --df-radius: 22px;
+  --md-primary-fg-color: #1f6b75;
+  --md-primary-fg-color--light: #4d97a0;
+  --md-primary-fg-color--dark: #174f57;
+  --md-accent-fg-color: #d97706;
+}
+
+[data-md-color-scheme="slate"] {
+  --df-ink: #ebf4f2;
+  --df-ink-soft: #b7c8c4;
+  --df-accent: #f6ad55;
+  --df-accent-soft: rgba(246, 173, 85, 0.16);
+  --df-surface: #142429;
+  --df-surface-strong: #1b3238;
+  --df-border: rgba(235, 244, 242, 0.1);
+  --df-shadow: 0 18px 44px rgba(0, 0, 0, 0.28);
+  --md-default-bg-color: #0d191d;
+  --md-default-fg-color: #ebf4f2;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  letter-spacing: -0.02em;
+}
+
+.md-typeset h1 {
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
+.md-typeset p,
+.md-typeset li {
+  color: var(--df-ink-soft);
+}
+
+.md-typeset a {
+  text-decoration-thickness: 0.08em;
+}
+
+.md-typeset code {
+  border-radius: 0.35rem;
+}
+
+.md-typeset .highlight pre,
+.md-typeset pre > code {
+  border-radius: 18px;
+}
+
+.md-main__inner {
+  margin-top: 0;
+}
+
+.md-content__inner {
+  padding-bottom: 4rem;
+}
+
+.section-label {
+  color: var(--md-primary-fg-color);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.45rem;
+  text-transform: uppercase;
+}
+
