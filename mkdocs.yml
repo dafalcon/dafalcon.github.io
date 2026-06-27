@@ -1,0 +1,12 @@
+site_name: dafalcon
+site_url: https://dafalcon.github.io
+
+theme:
+  name: material
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - HomeLab: homelab/index.md
