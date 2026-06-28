@@ -9,10 +9,11 @@
   }
 
   window.goatcounter = window.goatcounter || {};
+  window.goatcounter.endpoint = GOATCOUNTER_ENDPOINT;
   window.goatcounter.no_onload = true;
 
   function currentPath() {
-    return window.location.pathname + window.location.search + window.location.hash;
+    return window.location.pathname + window.location.search;
   }
 
   function ensureScript() {
