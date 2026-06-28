@@ -18,3 +18,5 @@ Here are some troubleshooting steps:
   - With all for PFE tubes out of the way, tilt the AMS onto its front face and gently shake it.  You may be able to get broken filament out from where the tubes were connected this way.  Inspect each opening for filament and remove it.
 - Once the filament loads, it might still push a piece of broken filament out the back of the AMS.
   Disconnect the AMS's PFE tube from the back of the printer itself and wait for it to push the filament through.  Remove any broken pieces.
+
+If it still doesn't work there are additional steps at [bambu labs](https://wiki.bambulab.com/en/ams-2-pro/remove-broken-stuck-material)
