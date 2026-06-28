@@ -3,6 +3,7 @@
 ## AMS 2 Pro Troubleshooting
 
 We sometimes get weird behavior from the AMS 2 Pro:
+
 - It holds a filament spool in reverse for several minutes, then errors
 - It "revs" a spool repeatedly with no progress
 - Other errors
@@ -10,6 +11,7 @@ We sometimes get weird behavior from the AMS 2 Pro:
 Every time it has been caused by a piece of broken filament stuck somewhere in the system.  
 
 Here are some troubleshooting steps:
+
 - Take all the filament out of the AMS and disconnect it from the printer
 - The PFE tubes inside the AMS can be disconnected from the back by depressing the black piece of plasting and pulling the tube.  Disconnect all 4 tubes.
 - Push a piece of filament into each load point until it comes out the back where you disconnected it.  Remove any broken pieces of filament.

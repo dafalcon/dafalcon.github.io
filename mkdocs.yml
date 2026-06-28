@@ -26,7 +26,6 @@ theme:
         name: Switch to light mode
   features:
     - navigation.instant
-    - navigation.tabs
     - navigation.top
     - navigation.sections
     - navigation.expand
@@ -45,12 +44,6 @@ plugins:
       type: date
   - minify:
       minify_html: true
-
-nav:
-  - Home: index.md
-  - HomeLab:
-      - Overview: homelab/index.md
-      - dafalcon.github.io: homelab/dafalcon.github.io.md
 
 extra:
   social:
