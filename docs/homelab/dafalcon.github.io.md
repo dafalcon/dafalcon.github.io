@@ -32,3 +32,12 @@ View it in the browser at [http://127.0.0.1:8000](http://127.0.0.1:8000)
 Push `main` to trigger a GitHub Action that builds the site and deploys it to the `gh-pages` branch.
 See .github/workflows/deploy.yml for details.
 
+## Analytics
+
+Page views are tracked with [GoatCounter](https://www.goatcounter.com/).
+
+- Site: `https://dafalcon.goatcounter.com`
+- Loader: `docs/javascripts/analytics.js`
+- MkDocs hook: `extra_javascript` in `mkdocs.yml`
+
+The custom loader keeps tracking working with Material's `navigation.instant` behavior, so client-side page transitions still register as page views.

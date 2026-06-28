@@ -53,6 +53,10 @@ extra:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - path: javascripts/analytics.js
+    defer: true
+
 markdown_extensions:
   - admonition
   - attr_list
